@@ -1,2 +1,3 @@
 # Marketing-Buzzwords-To-Avoid
-Created with CodeSandbox
+
+A list of marketing buzzwords and jargon to avoid in your marketing copy and speech.
