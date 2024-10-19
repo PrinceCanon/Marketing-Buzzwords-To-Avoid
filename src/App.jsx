@@ -1,7 +1,6 @@
 import React from "react";
 import Entry from "./components/Entry.jsx";
 import buzzwords from "./buzzwords.js";
-import Alternative from "./components/Alternative.jsx";
 
 function App() {
   return (
