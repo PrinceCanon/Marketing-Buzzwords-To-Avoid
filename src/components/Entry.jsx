@@ -4,7 +4,7 @@ function Entry(props) {
   return (
     <div className="term">
       <dt>
-        <span className="emoji">{props.term}</span>
+        <span className="title">{props.term}</span>
       </dt>
       <dd>{props.definition}</dd>
     </div>

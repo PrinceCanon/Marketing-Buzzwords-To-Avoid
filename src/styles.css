@@ -53,10 +53,10 @@ dt span {
   font-weight: 900;
 }
 
-.emoji {
+.title {
   margin: 0 auto 20px;
   display: block;
-  font-size: 400%;
+  font-size: 200%;
 }
 
 dd {
