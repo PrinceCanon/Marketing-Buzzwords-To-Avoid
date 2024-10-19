@@ -145,6 +145,27 @@ const buzzwords = [
       "Used to describe making progress, but can sound like jargon.",
     alternatives: ["Make progress", "Have an impact", "Make a difference"],
   },
+  {
+    id: "22",
+    term: "Mission Critical",
+    definition:
+      "Describes something as essential, but can feel like unnecessary hype.",
+    alternatives: ["Essential", "Vital", "Crucial"],
+  },
+  {
+    id: "23",
+    term: "Low Touch",
+    definition:
+      "Describes a product or service requiring little customer involvement, but can sound impersonal.",
+    alternatives: ["Easy to use", "Self-service", "Minimal effort"],
+  },
+  {
+    id: "30",
+    term: "Bleeding Edge",
+    definition:
+      "Describes being on the very forefront of technology, but can sound extreme and flashy.",
+    alternatives: ["Advanced", "Ahead of its time"]
+  },
 ];
 
 export default buzzwords;
