@@ -81,3 +81,29 @@ dd dl {
 dd dl .term {
   margin-bottom: 1rem;
 }
+
+.alt-title {
+  display: block;
+  margin-top: 30px;
+  text-decoration: underline;
+}
+
+.alternatives-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.alternatives-container li {
+  font-weight: bold;
+  font-size: 80%;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+ li span {
+  position: relative;
+  left: -5px;
+}

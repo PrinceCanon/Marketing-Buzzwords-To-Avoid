@@ -1,10 +1,7 @@
 import React from "react";
 import Entry from "./components/Entry.jsx";
 import buzzwords from "./buzzwords.js";
-
-function createEntry(word) {
-  return <Entry key={word.id} term={word.term} definition={word.definition} />;
-}
+import Alternative from "./components/Alternative.jsx";
 
 function App() {
   return (
@@ -12,9 +9,18 @@ function App() {
       <h1>
         <span>Marketing Buzzwords To Avoid</span>
       </h1>
-      <dl className="dictionary">{buzzwords.map(createEntry)}</dl>
+      <dl className="dictionary">
+        {buzzwords.map((buzzword) => (
+          <Entry
+            key={buzzword.id}
+            term={buzzword.term}
+            definition={buzzword.definition}
+            alternatives={buzzword.alternatives}
+          />
+        ))}
+      </dl>
     </div>
   );
 }
-
+    
 export default App;
