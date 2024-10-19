@@ -1,6 +1,6 @@
 import React from "react";
-import Entry from "./components/Entry";
-import buzzwords from "./buzzwords";
+import Entry from "./components/Entry.jsx";
+import buzzwords from "./buzzwords.js";
 
 function createEntry(word) {
   return <Entry key={word.id} term={word.term} definition={word.definition} />;
